@@ -21,3 +21,16 @@ section
     margin-inline: auto;
 }
 
+#dell-product
+{
+    background-color:purple;
+    text-align: center;
+    line-height: 2rem;
+
+}
+
+.condition
+{
+    background-color: coral;
+    
+}

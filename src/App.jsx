@@ -2,14 +2,18 @@ import React from 'react'
 import First from './Basic-topic/First'
 import './App.css'
 import Props from './Basic-topic/Props'
+import Event from './Basic-topic/Event';
+import Conditional from './Basic-topic/Conditional';
 
 
 function App() {
-  let user = 'THIS MESSAGE FROM APP.JSX';
+  let productName = 'Dell Mouse';
   return (
     <>
       <First />
-      <Props user={user} />
+      <Props product={productName} />
+      <Event />
+      <Conditional/>
     </>
   )
 }
