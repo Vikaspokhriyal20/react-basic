@@ -10,6 +10,7 @@ body
 {
     background-color: blueviolet;
     color: white;
+
 }
 
 section
@@ -19,6 +20,15 @@ section
     background-color: darkmagenta;
     padding: 2rem;
     margin-inline: auto;
+}
+
+main
+{
+    width: 80%;
+    max-width: 450px;
+    background-color:lightsalmon;
+    padding: 2rem;
+    margin-inline: auto; 
 }
 
 #dell-product
@@ -34,3 +44,51 @@ section
     background-color: coral;
     
 }
+
+.list
+{
+    text-transform: capitalize;
+
+}
+
+#input-form
+{
+    color: black;
+    font-size: 18px;
+    line-height: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#input-form > input
+{
+    border: none;
+    outline: none;
+    padding: 1rem;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+#selectcar
+{
+    background-color: white;
+    margin-bottom: 2rem;
+    color: black;
+    line-height: 2rem;
+}
+
+#selectcar>select
+{
+    padding: 1rem;
+    outline: none;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.carname
+{
+    color: darkviolet;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+

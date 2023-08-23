@@ -2,6 +2,7 @@ import React from 'react'
 
 const Conditional = () => {
     const message = false;
+    const greet = true;
    
     return (
         <>
@@ -9,7 +10,10 @@ const Conditional = () => {
                 {
                     message ? <kbd>Hello vikas</kbd> : <kbd>Not show any msg</kbd>
                 }
+
+            
             </section>
+            
         </>
     )
 }
