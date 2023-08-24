@@ -5,7 +5,7 @@ import Props from './Basic-topic/Props'
 import Event from './Basic-topic/Event';
 import Conditional from './Basic-topic/Conditional';
 import List from './Basic-topic/List';
-import Forms from './Basic-topic/forms';
+import Forms from './Basic-topic/Forms';
 import Index from './Basic-topic/Index';
 import UseState from './Hooks/UseState';
 
