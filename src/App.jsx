@@ -22,7 +22,7 @@ function App() {
       <List />
       <Forms />
       <Index />
-      <UseState/>
+      <UseState />
     </>
   )
 }

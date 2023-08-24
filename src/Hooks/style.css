@@ -4,4 +4,51 @@
     background-color: aliceblue;
     color: black;
     margin-bottom: 2rem;
+    line-height: 2rem;
+}
+
+.hook-1 > button
+{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    outline: none;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+#input-form
+{
+    background-color: white;
+    text-align: left;
+
+}
+
+#input-form>h3
+{
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    color: crimson;
+    text-align: center;
+}
+
+
+#input-form > input
+{
+    width: 100%;
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 0;
+}
+
+#choose-color
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    
 }
