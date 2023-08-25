@@ -59,3 +59,49 @@
     color: black;
     margin-bottom: 2rem;
 }
+
+#adding
+{
+    padding: 0.3rem 0.6rem;
+    background-color: darkorange;
+    border:1px solid black;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+}
+
+#usecontext
+{
+    background-color: white;
+    color: black;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+}
+
+.component1
+{
+border: 1px solid  plum;
+margin-bottom: 1rem;
+padding: 0.5rem;
+}
+
+.component2
+{
+border: 1px solid darkorange;
+margin-bottom: 1rem;
+padding: 0.5rem;
+}
+.component3
+{
+    border: 1px solid violet;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+
+}
+.component4
+{
+    border: 1px solid red;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}

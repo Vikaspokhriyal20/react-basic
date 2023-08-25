@@ -1,25 +1,26 @@
-import React, { useState } from 'react'
-import { useEffect } from 'react';
+import React, { useState , useEffect, useContext } from 'react'
+
+
 
 const UseEffect = () => {
-    const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);
+  const [calculation, setCalculation] = useState(0);
 
   useEffect(() => {
-    setTimeout(() => {
-       setCount((count) => count + 1);
-    }, 1000);
-   
-  },[count]);
+    setCalculation(() => count * 2);
+  }, [count]);
 
-    
+
+
   return (
     <>
-        <main id='useeffect'>
+      <main id='useeffect'>
         <h4>useEffect... {count} </h4>
-        
+        <button id='adding' onClick={() => setCount((c) => c + 1)}>+</button>
+        <h4>calculation : {calculation}</h4>
       </main>
     </>
-  )
+  ) 
 }
 
 export default UseEffect
