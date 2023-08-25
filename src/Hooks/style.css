@@ -50,5 +50,12 @@
     gap: 1rem;
     text-align: center;
     margin-bottom: 2rem;
-    
+
+}
+
+#useeffect
+{
+    background-color: beige;
+    color: black;
+    margin-bottom: 2rem;
 }

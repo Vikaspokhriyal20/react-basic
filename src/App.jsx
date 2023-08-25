@@ -8,6 +8,7 @@ import List from './Basic-topic/List';
 import Forms from './Basic-topic/Forms';
 import Index from './Basic-topic/Index';
 import UseState from './Hooks/UseState';
+import UseEffect from './Hooks/UseEffect';
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <Forms />
       <Index />
       <UseState />
+      <UseEffect/>
     </>
   )
 }
