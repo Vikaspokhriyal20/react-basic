@@ -18,7 +18,7 @@ const ComponentB = () => {
         }
       </main>
     </>
-
+ 
   );
 }
 

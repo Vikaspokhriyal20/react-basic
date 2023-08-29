@@ -10,6 +10,7 @@ import Index from './Basic-topic/Index';
 import UseState from './Hooks/UseState';
 import UseEffect from './Hooks/UseEffect';
 import UseContext from './Hooks/context api/UseContext';
+import UseRef from './Hooks/UseRef';
 
 
 
@@ -27,7 +28,8 @@ function App() {
       <Index />
       <UseState />
       <UseEffect />
-      <UseContext/>
+      <UseContext />
+      <UseRef/>
     </>
   )
 }
