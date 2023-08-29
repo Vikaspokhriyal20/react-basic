@@ -77,31 +77,33 @@
     color: black;
     margin-bottom: 2rem;
     line-height: 2rem;
+    text-align: center;
 }
 
-.component1
+#componentA
 {
 border: 1px solid  plum;
 margin-bottom: 1rem;
 padding: 0.5rem;
+background-color: white;
+text-align: left;
 }
 
-.component2
+#componentB
 {
 border: 1px solid darkorange;
 margin-bottom: 1rem;
 padding: 0.5rem;
+background-color: white;
+text-align: left;
 }
-.component3
+#componentD
 {
     border: 1px solid violet;
     margin-bottom: 1rem;
     padding: 0.5rem;
+    background-color: white;
+    text-align: left;
 
 }
-.component4
-{
-    border: 1px solid red;
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-}
+
