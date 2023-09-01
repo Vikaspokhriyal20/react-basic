@@ -26,10 +26,10 @@ const UseState = () => {
     <>
         <section className='hook-1'>
         <h4>useState Hook...</h4>
-        <h4>Count: {count}</h4>
+        <p>Count: {count}</p>
         <button onClick={increament}>click me</button>
 
-        <h4>This is my {car.brand} {car.model} in {car.color} color since {car.year}!</h4>
+        <p>This is my {car.brand} {car.model} in {car.color} color since {car.year}!</p>
         <button onClick={changeColor}>change color</button>
       </section>
     </>

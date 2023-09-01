@@ -33,8 +33,8 @@ const UseContext = () => {
                                 <ComponentA />
                                 <ComponentB />
                                 <ComponentD />
-                                <button onClick={countApp} >Click Me</button>
-                                <button onClick={()=>setGreet(!greet)}>Greet</button>
+                                <button onClick={countApp} id='counter' >Click Me</button>
+                                <button onClick={()=>setGreet(!greet)} id='greet'>Greet</button>
                             </section>
 
                         </UserContext.Provider>

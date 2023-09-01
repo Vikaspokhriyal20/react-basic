@@ -6,7 +6,7 @@ const ComponentD = () => {
   return (
     <>
       <main id='componentD'>
-        <h4>Component-D</h4>
+        <strong>Component-D</strong>
         <p>Count: {counter}</p>
       </main>
     </>

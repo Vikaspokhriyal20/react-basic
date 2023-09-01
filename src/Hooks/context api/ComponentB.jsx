@@ -11,7 +11,7 @@ const ComponentB = () => {
   return (
     <>
       <main id='componentB' >
-        <h4>Component-B</h4>
+        <strong>Component-B</strong>
         <p>{`Subject Name ${userdata} User-Name : ${UserName}`}</p>
         {
           MyGreet ? <h3>Hello users 😊</h3> : <h3>thank you 🎊</h3>

@@ -7,7 +7,7 @@ const ComponentA = () => {
   return (
     <>
       <section id='componentA'>
-        <h4>Component-A</h4>
+        <strong>Component-A</strong>
         <p>Count: {counter}</p>
       </section>
     </>
