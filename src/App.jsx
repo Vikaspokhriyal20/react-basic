@@ -11,6 +11,8 @@ import UseState from './Hooks/UseState';
 import UseEffect from './Hooks/UseEffect';
 import UseContext from './Hooks/context api/UseContext';
 import UseRef from './Hooks/UseRef';
+import UseReducer from './Hooks/UseReducer';
+import Bgchanger from './project/Bgchanger';
 
 
 
@@ -29,7 +31,9 @@ function App() {
       <UseState />
       <UseEffect />
       <UseContext />
-      <UseRef/>
+      <UseRef />
+      <UseReducer />
+      <Bgchanger/>
     </>
   )
 }
