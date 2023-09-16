@@ -2,38 +2,43 @@ import React from 'react'
 import { useReducer } from 'react'
 
 
-const countvalue = 0;
+const initailState = 0;
 
-const counterapp = (state, action) => {
+const reducer = (state, action) => {
    
     
     switch (action) {
-        case 'add':
+        case 'INCREMENT':
             return state + 1;
-        case 'subtract':
+        case 'DECREMENT':
             return state - 1;
-        case 'reset':
-            return 0;
-
+        case 'RESET':
+            return initailState;
         default:
-            break;
+            return state 
+   
     }
-
 }
 
 
 const UseReducer = () => {
-    const [state, dispatch] = useReducer(counterapp, countvalue);
+    const [counterOne, dispatch] = useReducer(reducer, initailState);
+    const [counterTwo, dispatchTwo] = useReducer(reducer, initailState);
 
     return (
         <>
             <section id='usereducer'>
                 <h4>UseReducer Hook...</h4>
-                <p>{state}</p>
-                <button onClick={() => dispatch('add')}>ADD</button>
-                <button onClick={() => dispatch('subtract')}>SUBTRACT</button>
-                <button onClick={() => dispatch('reset')}>RESET</button>
+                <p>{counterOne}</p>
+                <button onClick={() => dispatch('INCREMENT')}>ADD</button>
+                <button onClick={() => dispatch('DECREMENT')}>SUBTRACT</button>
+                <button onClick={() => dispatch('RESET')}>RESET</button>
 
+                <p>{counterTwo}</p>
+                <button onClick={() => dispatchTwo('INCREMENT')}>ADD</button>
+                <button onClick={() => dispatchTwo('DECREMENT')}>SUBTRACT</button>
+                <button onClick={() => dispatchTwo('RESET')}>RESET</button>
+  
             </section>
         </>
     )

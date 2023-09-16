@@ -13,7 +13,7 @@ export const GreetContext = createContext();
 const UseContext = () => {
     const [user, setUser] = useState('Vikas Pokhriyal');
     const [subject, setSubject] = useState('c++');
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(15);
     const [greet, setGreet] = useState(true);
 
     const countApp = () => {

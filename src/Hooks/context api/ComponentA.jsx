@@ -3,7 +3,9 @@ import { UserContext, SubjectContext, CounterContext } from './UseContext'
 
 
 const ComponentA = () => {
+ 
   const counter = useContext(CounterContext);
+
   return (
     <>
       <section id='componentA'>

@@ -13,6 +13,8 @@ import UseContext from './Hooks/context api/UseContext';
 import UseRef from './Hooks/UseRef';
 import UseReducer from './Hooks/UseReducer';
 import Bgchanger from './project/Bgchanger';
+import UseReducertwo from './Hooks/UseReducertwo';
+import DateFetchingOne from './project/DateFetchingOne';
 
 
 
@@ -33,7 +35,9 @@ function App() {
       <UseContext />
       <UseRef />
       <UseReducer />
-      <Bgchanger/>
+      <UseReducertwo/>
+      <Bgchanger />
+      <DateFetchingOne/>
     </>
   )
 }
