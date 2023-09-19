@@ -184,6 +184,15 @@ text-align: left;
     border-right:1px solid white;
 }
 
+#usecallback
+{
+    background-color: white;
+    color: black;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 2rem; 
+}
+
 
 
 

@@ -29,9 +29,10 @@ const DateFetchingOne = () => {
     return (
         <>
             <section id='fetchingdata'>
+                
                 <h2>Fetching-Data</h2>
                 {loading ? <p style={{color: textcolor }}>Loading..</p> : <p>{post.title}</p>}
-                {error ? <p>{error}</p> : null}
+                {error ? <p>{error}</p> : null}  
 
             </section>
         </>

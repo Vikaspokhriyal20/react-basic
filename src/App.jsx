@@ -15,6 +15,8 @@ import UseReducer from './Hooks/UseReducer';
 import Bgchanger from './project/Bgchanger';
 import UseReducertwo from './Hooks/UseReducertwo';
 import DateFetchingOne from './project/DateFetchingOne';
+import DataFetchingTwo from './project/DataFetchingTwo';
+import UseCallback from './Hooks/UseCallback';
 
 
 
@@ -37,7 +39,9 @@ function App() {
       <UseReducer />
       <UseReducertwo/>
       <Bgchanger />
-      <DateFetchingOne/>
+      <DateFetchingOne />
+      <DataFetchingTwo />
+      <UseCallback/>
     </>
   )
 }
