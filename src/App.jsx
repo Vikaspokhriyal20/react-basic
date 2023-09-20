@@ -17,6 +17,7 @@ import UseReducertwo from './Hooks/UseReducertwo';
 import DateFetchingOne from './project/DateFetchingOne';
 import DataFetchingTwo from './project/DataFetchingTwo';
 import UseCallback from './Hooks/UseCallback';
+import PasswordGen from './project/PasswordGen';
 
 
 
@@ -41,7 +42,8 @@ function App() {
       <Bgchanger />
       <DateFetchingOne />
       <DataFetchingTwo />
-      <UseCallback/>
+      <UseCallback />
+      <PasswordGen/>
     </>
   )
 }
