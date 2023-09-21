@@ -29,35 +29,41 @@ const PasswordGen = () => {
 
     useEffect(() => {
         passwordGenerator();
-    },[length,totalchar,totalnum,passwordGenerator])
+    }, [length, totalchar, totalnum, passwordGenerator])
 
     const copyToclipboard = useCallback(() => {
         window.navigator.clipboard.writeText(password)
         passwordRef.current?.select();
         passwordRef.current?.setSelectionRange(0, 20);
-    },[password])
-    
+    }, [password])
+
 
     return (
         <>
             <main id='passwordmaker'>
                 <h3>Password Generator</h3>
-                <input type="text" id='inputbox'  value={password} ref={passwordRef} readOnly/>
+                <input type="text" id='inputbox' value={password} ref={passwordRef} readOnly />
 
                 <div className="btn-container">
 
-                    <input type="range" id="range" min={6} max={100} value={length} onChange={(e) => setLength(e.target.value)} />
-                    <label htmlFor="range">Lenght : {length}</label>
+                    <div className="range">
+                        <input type="range" id="range" min={6} max={100} value={length} onChange={(e) => setLength(e.target.value)} />
+                        <label htmlFor="range">Lenght : {length}</label>
+                    </div>
 
-                    <input type="checkbox" id="check" defaultChecked={totalnum} onChange={() => {
-                        setTotalnum((prev) => !prev)
-                    }} />
-                    <label htmlFor="number">Numbers</label>
+                    <div className="numbercheckbox">
+                        <input type="checkbox" id="check" defaultChecked={totalnum} onChange={() => {
+                            setTotalnum((prev) => !prev)
+                        }} />
+                        <label htmlFor="number">Numbers</label>
+                    </div>
 
-                    <input type="checkbox" id="check" defaultChecked={totalchar} onChange={() => {
-                        setTotalchar((prev) => !prev)
-                    }} />
-                    <label htmlFor="char">Charactors</label>
+                    <div className="charcheckbox">
+                        <input type="checkbox" id="check" defaultChecked={totalchar} onChange={() => {
+                            setTotalchar((prev) => !prev)
+                        }} />
+                        <label htmlFor="char">Charactors</label>
+                    </div>
 
                 </div>
                 <button id='copy-btn' onClick={copyToclipboard}>copy</button>
