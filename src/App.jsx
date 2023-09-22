@@ -18,6 +18,8 @@ import DateFetchingOne from './project/DateFetchingOne';
 import DataFetchingTwo from './project/DataFetchingTwo';
 import UseCallback from './Hooks/UseCallback';
 import PasswordGen from './project/PasswordGen';
+import Todoapp from './project/Todoapp';
+import Usememo from './Hooks/Usememo';
 
 
 
@@ -37,13 +39,15 @@ function App() {
       <UseEffect />
       <UseContext />
       <UseRef />
+      <Usememo/>
       <UseReducer />
       <UseReducertwo/>
       <Bgchanger />
       <DateFetchingOne />
       <DataFetchingTwo />
       <UseCallback />
-      <PasswordGen/>
+      <PasswordGen />
+      <Todoapp/>
     </>
   )
 }

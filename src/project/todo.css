@@ -1,0 +1,38 @@
+#todo-container
+{
+    background-color: white;
+    margin-bottom: 2rem;
+    color: black;
+    text-align: center;
+    line-height: 2rem;
+
+}
+
+.todo-input
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#todoinput
+{
+    width: 100%;
+    outline: none;
+    background-color: #F5F5F5;
+    border: none;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+#todo-btn
+{
+   
+    outline: none;
+    background-color: crimson;
+    border: none;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    color:#F5F5F5;
+}

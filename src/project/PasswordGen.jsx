@@ -31,6 +31,7 @@ const PasswordGen = () => {
         passwordGenerator();
     }, [length, totalchar, totalnum, passwordGenerator])
 
+
     const copyToclipboard = useCallback(() => {
         window.navigator.clipboard.writeText(password)
         passwordRef.current?.select();
@@ -70,6 +71,7 @@ const PasswordGen = () => {
             </main>
         </>
     )
+
 }
 
 export default PasswordGen
