@@ -7,7 +7,7 @@ const UserInput = () => {
                 <h2>User Input form..</h2>
                 <div className="name-box">
                     <button id='name-btn'>🙂</button>
-                    <input type="text" name="first" id="nameinput" placeholder='Name' />
+                    <input type="text" name="first" id="inputbox" placeholder='Name' />
                 </div>
                 <div className="phone-box">
                     <button id='name-btn'>📞</button>
@@ -17,6 +17,7 @@ const UserInput = () => {
                     <button id='name-btn'>📧</button>
                     <input type="text" name="first" id="inputbox" placeholder='Phone' />
                 </div>
+                <button id='copy-btn'>Submit</button>
             </section>
         </>
     )

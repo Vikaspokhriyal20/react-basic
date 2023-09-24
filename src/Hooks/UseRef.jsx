@@ -5,6 +5,7 @@ const UseRef = () => {
   
   const count = useRef(0);
   const inputElement = useRef();
+ 
 
   
 
@@ -29,6 +30,7 @@ const UseRef = () => {
 
         <button onClick={focusInput}>Focus</button>
       </section>
+      
     </>
   )
 }
