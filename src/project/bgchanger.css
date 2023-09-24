@@ -101,4 +101,63 @@
     gap: 5px;
 }
 
+#userinput
+{
+    background-color: white;
+    color: black;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 2rem;  
+}
 
+#userinput>h2
+{
+    margin-bottom: 2rem;
+}
+
+.name-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem; 
+}
+
+.phone-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.email-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+#nameinput
+{
+    width: 100%;
+    outline: none;
+    background-color: #F5F5F5;
+    border: none;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+#name-btn
+{
+    outline: none;
+    background-color:crimson;
+    border: none;
+    padding: 1rem;
+    margin-bottom: 2rem; 
+    color:#F5F5F5;
+    
+}

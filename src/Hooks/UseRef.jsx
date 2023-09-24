@@ -14,6 +14,7 @@ const UseRef = () => {
 
   const focusInput = () => {
     inputElement.current.focus();
+    
   }
   
   return (

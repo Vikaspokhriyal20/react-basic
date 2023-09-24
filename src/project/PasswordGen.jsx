@@ -35,7 +35,7 @@ const PasswordGen = () => {
     const copyToclipboard = useCallback(() => {
         window.navigator.clipboard.writeText(password)
         passwordRef.current?.select();
-        passwordRef.current?.setSelectionRange(0, 20);
+        passwordRef.current?.setSelectionRange(0, 100);
     }, [password])
 
 

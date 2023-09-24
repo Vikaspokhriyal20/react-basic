@@ -20,6 +20,7 @@ import UseCallback from './Hooks/UseCallback';
 import PasswordGen from './project/PasswordGen';
 import Todoapp from './project/Todoapp';
 import Usememo from './Hooks/Usememo';
+import UserInput from './project/UserInput';
 
 
 
@@ -47,7 +48,8 @@ function App() {
       <DataFetchingTwo />
       <UseCallback />
       <PasswordGen />
-      <Todoapp/>
+      <Todoapp />
+      <UserInput/>
     </>
   )
 }
