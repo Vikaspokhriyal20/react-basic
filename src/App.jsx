@@ -21,6 +21,8 @@ import PasswordGen from './project/PasswordGen';
 import Todoapp from './project/Todoapp';
 import Usememo from './Hooks/Usememo';
 import UserInput from './project/UserInput';
+import CounterOne from './Hooks/custom-hook/CounterOne';
+import CounterTwo from './Hooks/custom-hook/CounterTwo';
 
 
 
@@ -50,6 +52,8 @@ function App() {
       <PasswordGen />
       <Todoapp />
       <UserInput/>
+      <CounterOne />
+      <CounterTwo/>
     </>
   )
 }
