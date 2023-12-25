@@ -1,60 +1,52 @@
-#bgchanger
-{
+#bgchanger {
     background-color: aliceblue;
     text-align: center;
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
     color: black;
-    
+
 }
 
-#navbar
-{
+#navbar {
     background-color: white;
     margin-top: 2rem;
     display: flex;
     gap: 10px;
     justify-content: center;
-    flex-wrap:wrap;
-    
-
+    flex-wrap: wrap;
 }
 
-#navbar>button
-{
+#navbar>button {
     padding: 0.5rem;
+    background-color: #F5F5F5;
     border: none;
     font-weight: 500;
     text-transform: uppercase;
-    width:60px;
-    
+    width: 60px;
+
 }
 
-#fetchingdata
-{
+#fetchingdata {
     background-color: white;
     text-align: center;
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
     color: black;
     line-height: 2rem;
 }
 
 
-#passwordmaker
-{
+#passwordmaker {
     background-color: white;
     text-align: center;
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
     color: black;
     line-height: 2rem;
 }
 
-#passwordmaker>h3
-{
+#passwordmaker>h3 {
     margin-bottom: 2rem;
 }
 
-#copy-btn
-{
+#copy-btn {
     background-color: crimson;
     color: white;
     border: none;
@@ -63,8 +55,7 @@
     letter-spacing: 1px;
 }
 
-.btn-container
-{
+.btn-container {
     display: flex;
     flex-direction: row;
     gap: 8px;
@@ -73,81 +64,72 @@
     margin-bottom: 1rem;
 }
 
-#inputbox::selection
-{
+#inputbox::selection {
     background-color: crimson;
     color: white;
     font-size: 16px;
-   
+
 }
 
-.range
-{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-.numbercheckbox
-{
-    display: flex;
-    align-items: center;
-    gap: 5px; 
-}
-
-.charcheckbox
-{
+.range {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-#userinput
-{
+.numbercheckbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.charcheckbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#userinput {
     background-color: white;
     color: black;
     margin-bottom: 2rem;
     text-align: center;
-    line-height: 2rem;  
+    line-height: 2rem;
     background-image: url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHdvb2QlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-#userinput>h2
-{
+#userinput>h2 {
     margin-bottom: 2rem;
     color: #F5F5F5;
 }
 
-.name-box
-{
+.name-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem; 
+    margin-top: 2rem;
 }
 
-.phone-box
-{
+.phone-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.email-box
-{
+.email-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 
 
-#nameinput
-{
+#nameinput {
     width: 100%;
     outline: none;
     background-color: #F5F5F5;
@@ -156,14 +138,11 @@
     margin-bottom: 2rem;
 }
 
-#name-btn
-{
+#name-btn {
     outline: none;
-    background-color:crimson;
+    background-color: crimson;
     border: none;
     padding: 1rem;
-    margin-bottom: 2rem; 
-    color:#F5F5F5;
+    margin-bottom: 2rem;
+    color: #F5F5F5;
 }
-
-

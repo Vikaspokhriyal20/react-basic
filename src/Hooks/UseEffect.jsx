@@ -10,13 +10,12 @@ const UseEffect = () => {
     setCalculation(() => count * 2);
   }, [count]);
 
-
-
   return (
     <>
       <main id='useeffect'>
         <h4>useEffect... {count} </h4>
         <button id='adding' onClick={() => setCount((c) => c + 1)}>+</button>
+        <button id='adding' onClick={()=>setCount((c)=>c-1)} >-</button>
         <h4>calculation : {calculation}</h4>
       </main>
     </>

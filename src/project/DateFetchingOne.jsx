@@ -8,10 +8,11 @@ const DateFetchingOne = () => {
     const [post, setPost] = useState({});
     const [textcolor, setTextcolor] = useState('red');
 
+    console.log(loading);
 
     useEffect(() => {
         setTimeout(() => {
-            axios.get('https://jsonplaceholder.typicode.com/posts/1')
+            axios.get('https://jsonplaceholder.typicode.com/posts/5')
             .then(response => {
                 setLoading(false)
                 setPost(response.data)
@@ -38,5 +39,4 @@ const DateFetchingOne = () => {
         </>
     )
 }
-
 export default DateFetchingOne

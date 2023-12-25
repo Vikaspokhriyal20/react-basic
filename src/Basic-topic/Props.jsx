@@ -1,27 +1,42 @@
 import React from 'react'
+import Car from './Car';
 
 
-const Props = ({ product }) => {
-  function Payment(props) {
-    return <button> <del> Pay {props.price}</del></button>
-  }
+const Props = ({ firstP, secoundP }) => {
 
-  function Discount(props) {
-    return <button> Pay {props.offer}</button>
-  }
-
-  const basicPrice = 499;
-  const discountPrice = basicPrice - 69;
+  const macBookPrice = 1050;
+  const googlePixelPrice = 1000;
 
   return (
     <>
-      <section id='dell-product'>
-        <p>{product}</p>
-        <Payment price={basicPrice} />
-        <Discount offer={discountPrice}/>
+      <section id='product-card'>
+        <div className="product-list">
+          <div className="product">
+            <p> <strong>{firstP}</strong></p>
+            <ul>
+              <li>Good built qaulity</li>
+              <li>Fast in work</li>
+              <li>Lightweight</li>
+              <li>New software</li>
+            </ul>
+            <p>{macBookPrice}</p>
+          </div>
+          <div className="product">
+            <p><strong>{secoundP}</strong></p>
+            <ul>
+              <li>Good built qaulity</li>
+              <li>Fast in work</li>
+              <li>Lightweight</li>
+              <li>New software</li>
+            </ul>
+            <p>{googlePixelPrice}</p>
+          </div>
+        </div>
       </section>
+      <Car/>
     </>
   )
 }
 
 export default Props
+

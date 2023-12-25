@@ -9,7 +9,6 @@
 body
 {
     background-color: blueviolet;
-    color: white;
 
 }
 
@@ -17,7 +16,7 @@ section
 {
     width: 80%;
     max-width: 450px;
-    background-color: darkmagenta;
+    background-color: white;
     padding: 2rem;
     margin-inline: auto;
 }
@@ -31,12 +30,21 @@ main
     margin-inline: auto; 
 }
 
-#dell-product
+#product-card
 {
-    background-color:purple;
-    text-align: center;
+    background-color:white;
     line-height: 2rem;
 
+}
+
+.product-list{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.product p{
+    color: darkmagenta;
 }
 
 .condition

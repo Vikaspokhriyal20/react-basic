@@ -21,7 +21,7 @@ const UseState = () => {
     })
   }
 
-   
+  console.log('useState-Rendering');
   return (
     <>
         <section className='hook-1'>
@@ -35,5 +35,4 @@ const UseState = () => {
     </>
   )
 }
-
 export default UseState

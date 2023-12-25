@@ -20,7 +20,6 @@ import UseCallback from './Hooks/UseCallback';
 import PasswordGen from './project/PasswordGen';
 import Todoapp from './project/Todoapp';
 import Usememo from './Hooks/Usememo';
-import UserInput from './project/UserInput';
 import CounterOne from './Hooks/custom-hook/CounterOne';
 import CounterTwo from './Hooks/custom-hook/CounterTwo';
 
@@ -28,11 +27,12 @@ import CounterTwo from './Hooks/custom-hook/CounterTwo';
 
 
 function App() {
-  let productName = 'Dell Mouse';
+  let firstProduct = 'Mac Book';
+  let secoundProduct = 'Google Pixel';
   return (
     <>
       <First />
-      <Props product={productName} />
+      <Props firstP={firstProduct} secoundP={secoundProduct} />
       <Event />
       <Conditional />
       <List />
@@ -51,9 +51,9 @@ function App() {
       <UseCallback />
       <PasswordGen />
       <Todoapp />
-      <UserInput/>
       <CounterOne />
-      <CounterTwo/>
+      <CounterTwo />
+
     </>
   )
 }

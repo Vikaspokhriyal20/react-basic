@@ -7,7 +7,7 @@ const Bgchanger = () => {
     return (
         <section id='bgchanger' style={{ backgroundColor: color }}>
 
-            <h3>Background-Changer..!</h3> 
+        <h3>Background-Changer..!</h3> 
 
             <main id='navbar' style={{ backgroundColor: color }}>
                 <button id='red' onClick={() => setColor('red')}>red</button>
